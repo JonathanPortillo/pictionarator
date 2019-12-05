@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/ddynamic_reconfigure/src/ddynamic_reconfigure.cpp" "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/src/ddynamic_reconfigure.cpp.o"
+  "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/ddynamic_reconfigure/src/ddynamic_reconfigure.cpp" "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/src/ddynamic_reconfigure.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/ddynamic_reconfigure/include"
+  "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/ddynamic_reconfigure/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src
+CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build
+CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/CMakeFiles /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/realsense-ros/realsense2_camera/CMakeFiles/progress.marks
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/CMakeFiles 0
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/CMakeFiles /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/realsense-ros/realsense2_camera/CMakeFiles/progress.marks
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/clean
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/preinstall
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/preinstall
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ realsense2_camera: realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.
 
 # fast build rule for target.
 realsense2_camera/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build
 .PHONY : realsense2_camera/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genpy.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genpy.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genpy.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genpy.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ realsense2_camera_genpy: realsense-ros/realsense2_camera/CMakeFiles/realsense2_c
 
 # fast build rule for target.
 realsense2_camera_genpy/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genpy.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genpy.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genpy.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genpy.dir/build
 .PHONY : realsense2_camera_genpy/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_nodejs.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_nodejs.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_nodejs.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ realsense2_camera_generate_messages_nodejs: realsense-ros/realsense2_camera/CMak
 
 # fast build rule for target.
 realsense2_camera_generate_messages_nodejs/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_nodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_nodejs.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_nodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_nodejs.dir/build
 .PHONY : realsense2_camera_generate_messages_nodejs/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_lisp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_lisp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ realsense2_camera_generate_messages_lisp: realsense-ros/realsense2_camera/CMakeF
 
 # fast build rule for target.
 realsense2_camera_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_lisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_lisp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_lisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_lisp.dir/build
 .PHONY : realsense2_camera_generate_messages_lisp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_geneus.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_geneus.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_geneus.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_geneus.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ realsense2_camera_geneus: realsense-ros/realsense2_camera/CMakeFiles/realsense2_
 
 # fast build rule for target.
 realsense2_camera_geneus/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_geneus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_geneus.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_geneus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_geneus.dir/build
 .PHONY : realsense2_camera_geneus/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_eus.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_eus.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_eus.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ realsense2_camera_generate_messages_eus: realsense-ros/realsense2_camera/CMakeFi
 
 # fast build rule for target.
 realsense2_camera_generate_messages_eus/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_eus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_eus.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_eus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_eus.dir/build
 .PHONY : realsense2_camera_generate_messages_eus/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_cpp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_cpp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ realsense2_camera_generate_messages_cpp: realsense-ros/realsense2_camera/CMakeFi
 
 # fast build rule for target.
 realsense2_camera_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_cpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_cpp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_cpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_cpp.dir/build
 .PHONY : realsense2_camera_generate_messages_cpp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/_realsense2_camera_generate_messages_check_deps_IMUInfo.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/_realsense2_camera_generate_messages_check_deps_IMUInfo.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/_realsense2_camera_generate_messages_check_deps_IMUInfo.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/_realsense2_camera_generate_messages_check_deps_IMUInfo.dir/rule
 
 # Convenience name for target.
@@ -282,12 +282,12 @@ _realsense2_camera_generate_messages_check_deps_IMUInfo: realsense-ros/realsense
 
 # fast build rule for target.
 _realsense2_camera_generate_messages_check_deps_IMUInfo/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/_realsense2_camera_generate_messages_check_deps_IMUInfo.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/_realsense2_camera_generate_messages_check_deps_IMUInfo.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/_realsense2_camera_generate_messages_check_deps_IMUInfo.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/_realsense2_camera_generate_messages_check_deps_IMUInfo.dir/build
 .PHONY : _realsense2_camera_generate_messages_check_deps_IMUInfo/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -297,12 +297,12 @@ realsense2_camera_generate_messages: realsense-ros/realsense2_camera/CMakeFiles/
 
 # fast build rule for target.
 realsense2_camera_generate_messages/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages.dir/build
 .PHONY : realsense2_camera_generate_messages/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_gennodejs.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_gennodejs.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_gennodejs.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -312,12 +312,12 @@ realsense2_camera_gennodejs: realsense-ros/realsense2_camera/CMakeFiles/realsens
 
 # fast build rule for target.
 realsense2_camera_gennodejs/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_gennodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_gennodejs.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_gennodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_gennodejs.dir/build
 .PHONY : realsense2_camera_gennodejs/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -327,12 +327,12 @@ diagnostic_msgs_generate_messages_nodejs: realsense-ros/realsense2_camera/CMakeF
 
 # fast build rule for target.
 diagnostic_msgs_generate_messages_nodejs/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build
 .PHONY : diagnostic_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -342,12 +342,12 @@ diagnostic_msgs_generate_messages_eus: realsense-ros/realsense2_camera/CMakeFile
 
 # fast build rule for target.
 diagnostic_msgs_generate_messages_eus/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build
 .PHONY : diagnostic_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -357,12 +357,12 @@ sensor_msgs_generate_messages_nodejs: realsense-ros/realsense2_camera/CMakeFiles
 
 # fast build rule for target.
 sensor_msgs_generate_messages_nodejs/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
 .PHONY : sensor_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -372,12 +372,12 @@ geometry_msgs_generate_messages_cpp: realsense-ros/realsense2_camera/CMakeFiles/
 
 # fast build rule for target.
 geometry_msgs_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/_realsense2_camera_generate_messages_check_deps_Extrinsics.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/_realsense2_camera_generate_messages_check_deps_Extrinsics.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/_realsense2_camera_generate_messages_check_deps_Extrinsics.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/_realsense2_camera_generate_messages_check_deps_Extrinsics.dir/rule
 
 # Convenience name for target.
@@ -387,12 +387,12 @@ _realsense2_camera_generate_messages_check_deps_Extrinsics: realsense-ros/realse
 
 # fast build rule for target.
 _realsense2_camera_generate_messages_check_deps_Extrinsics/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/_realsense2_camera_generate_messages_check_deps_Extrinsics.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/_realsense2_camera_generate_messages_check_deps_Extrinsics.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/_realsense2_camera_generate_messages_check_deps_Extrinsics.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/_realsense2_camera_generate_messages_check_deps_Extrinsics.dir/build
 .PHONY : _realsense2_camera_generate_messages_check_deps_Extrinsics/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -402,12 +402,12 @@ sensor_msgs_generate_messages_lisp: realsense-ros/realsense2_camera/CMakeFiles/s
 
 # fast build rule for target.
 sensor_msgs_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 .PHONY : sensor_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -417,12 +417,12 @@ tf2_msgs_generate_messages_lisp: realsense-ros/realsense2_camera/CMakeFiles/tf2_
 
 # fast build rule for target.
 tf2_msgs_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
 .PHONY : tf2_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -432,12 +432,12 @@ sensor_msgs_generate_messages_cpp: realsense-ros/realsense2_camera/CMakeFiles/se
 
 # fast build rule for target.
 sensor_msgs_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 .PHONY : sensor_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -447,12 +447,12 @@ actionlib_msgs_generate_messages_lisp: realsense-ros/realsense2_camera/CMakeFile
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -462,12 +462,12 @@ nav_msgs_generate_messages_cpp: realsense-ros/realsense2_camera/CMakeFiles/nav_m
 
 # fast build rule for target.
 nav_msgs_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
 .PHONY : nav_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_py.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_py.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -477,12 +477,12 @@ nodelet_generate_messages_py: realsense-ros/realsense2_camera/CMakeFiles/nodelet
 
 # fast build rule for target.
 nodelet_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_py.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_py.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_py.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_py.dir/build
 .PHONY : nodelet_generate_messages_py/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -492,12 +492,12 @@ nav_msgs_generate_messages_lisp: realsense-ros/realsense2_camera/CMakeFiles/nav_
 
 # fast build rule for target.
 nav_msgs_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
 .PHONY : nav_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -507,12 +507,12 @@ nodelet_generate_messages_nodejs: realsense-ros/realsense2_camera/CMakeFiles/nod
 
 # fast build rule for target.
 nodelet_generate_messages_nodejs/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
 .PHONY : nodelet_generate_messages_nodejs/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -522,12 +522,12 @@ nodelet_generate_messages_cpp: realsense-ros/realsense2_camera/CMakeFiles/nodele
 
 # fast build rule for target.
 nodelet_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_cpp.dir/build
 .PHONY : nodelet_generate_messages_cpp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -537,12 +537,12 @@ tf2_msgs_generate_messages_eus: realsense-ros/realsense2_camera/CMakeFiles/tf2_m
 
 # fast build rule for target.
 tf2_msgs_generate_messages_eus/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
 .PHONY : tf2_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -552,12 +552,12 @@ realsense2_camera_generate_messages_py: realsense-ros/realsense2_camera/CMakeFil
 
 # fast build rule for target.
 realsense2_camera_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/build
 .PHONY : realsense2_camera_generate_messages_py/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -567,12 +567,12 @@ actionlib_msgs_generate_messages_py: realsense-ros/realsense2_camera/CMakeFiles/
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -582,12 +582,12 @@ geometry_msgs_generate_messages_eus: realsense-ros/realsense2_camera/CMakeFiles/
 
 # fast build rule for target.
 geometry_msgs_generate_messages_eus/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 .PHONY : geometry_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -597,12 +597,12 @@ nav_msgs_generate_messages_nodejs: realsense-ros/realsense2_camera/CMakeFiles/na
 
 # fast build rule for target.
 nav_msgs_generate_messages_nodejs/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
 .PHONY : nav_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_py.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_py.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -612,12 +612,12 @@ actionlib_generate_messages_py: realsense-ros/realsense2_camera/CMakeFiles/actio
 
 # fast build rule for target.
 actionlib_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_py.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_py.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_py.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_py.dir/build
 .PHONY : actionlib_generate_messages_py/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -627,12 +627,12 @@ nav_msgs_generate_messages_eus: realsense-ros/realsense2_camera/CMakeFiles/nav_m
 
 # fast build rule for target.
 nav_msgs_generate_messages_eus/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
 .PHONY : nav_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -642,12 +642,12 @@ nav_msgs_generate_messages_py: realsense-ros/realsense2_camera/CMakeFiles/nav_ms
 
 # fast build rule for target.
 nav_msgs_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/build
 .PHONY : nav_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -657,12 +657,12 @@ nodelet_generate_messages_lisp: realsense-ros/realsense2_camera/CMakeFiles/nodel
 
 # fast build rule for target.
 nodelet_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_lisp.dir/build
 .PHONY : nodelet_generate_messages_lisp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -672,12 +672,12 @@ geometry_msgs_generate_messages_nodejs: realsense-ros/realsense2_camera/CMakeFil
 
 # fast build rule for target.
 geometry_msgs_generate_messages_nodejs/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
 .PHONY : geometry_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -687,12 +687,12 @@ tf2_msgs_generate_messages_py: realsense-ros/realsense2_camera/CMakeFiles/tf2_ms
 
 # fast build rule for target.
 tf2_msgs_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
 .PHONY : tf2_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -702,12 +702,12 @@ actionlib_msgs_generate_messages_nodejs: realsense-ros/realsense2_camera/CMakeFi
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_nodejs/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
 .PHONY : actionlib_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -717,12 +717,12 @@ sensor_msgs_generate_messages_py: realsense-ros/realsense2_camera/CMakeFiles/sen
 
 # fast build rule for target.
 sensor_msgs_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 .PHONY : sensor_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -732,12 +732,12 @@ actionlib_generate_messages_cpp: realsense-ros/realsense2_camera/CMakeFiles/acti
 
 # fast build rule for target.
 actionlib_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_cpp.dir/build
 .PHONY : actionlib_generate_messages_cpp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -747,12 +747,12 @@ geometry_msgs_generate_messages_py: realsense-ros/realsense2_camera/CMakeFiles/g
 
 # fast build rule for target.
 geometry_msgs_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_cpp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_cpp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -762,12 +762,12 @@ bond_generate_messages_cpp: realsense-ros/realsense2_camera/CMakeFiles/bond_gene
 
 # fast build rule for target.
 bond_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_cpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_cpp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_cpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_cpp.dir/build
 .PHONY : bond_generate_messages_cpp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -777,12 +777,12 @@ diagnostic_msgs_generate_messages_lisp: realsense-ros/realsense2_camera/CMakeFil
 
 # fast build rule for target.
 diagnostic_msgs_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
 .PHONY : diagnostic_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_eus.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_eus.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_eus.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -792,12 +792,12 @@ bond_generate_messages_eus: realsense-ros/realsense2_camera/CMakeFiles/bond_gene
 
 # fast build rule for target.
 bond_generate_messages_eus/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_eus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_eus.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_eus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_eus.dir/build
 .PHONY : bond_generate_messages_eus/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_gencpp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_gencpp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_gencpp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_gencpp.dir/rule
 
 # Convenience name for target.
@@ -807,12 +807,12 @@ realsense2_camera_gencpp: realsense-ros/realsense2_camera/CMakeFiles/realsense2_
 
 # fast build rule for target.
 realsense2_camera_gencpp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_gencpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_gencpp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_gencpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_gencpp.dir/build
 .PHONY : realsense2_camera_gencpp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_lisp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_lisp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -822,12 +822,12 @@ bond_generate_messages_lisp: realsense-ros/realsense2_camera/CMakeFiles/bond_gen
 
 # fast build rule for target.
 bond_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_lisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_lisp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_lisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_lisp.dir/build
 .PHONY : bond_generate_messages_lisp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -837,12 +837,12 @@ geometry_msgs_generate_messages_lisp: realsense-ros/realsense2_camera/CMakeFiles
 
 # fast build rule for target.
 geometry_msgs_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 .PHONY : geometry_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_py.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_py.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -852,12 +852,12 @@ bond_generate_messages_py: realsense-ros/realsense2_camera/CMakeFiles/bond_gener
 
 # fast build rule for target.
 bond_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_py.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_py.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_py.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_py.dir/build
 .PHONY : bond_generate_messages_py/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_cpp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_cpp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -867,12 +867,12 @@ tf_generate_messages_cpp: realsense-ros/realsense2_camera/CMakeFiles/tf_generate
 
 # fast build rule for target.
 tf_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_cpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_cpp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_cpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_cpp.dir/build
 .PHONY : tf_generate_messages_cpp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genlisp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genlisp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genlisp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genlisp.dir/rule
 
 # Convenience name for target.
@@ -882,12 +882,12 @@ realsense2_camera_genlisp: realsense-ros/realsense2_camera/CMakeFiles/realsense2
 
 # fast build rule for target.
 realsense2_camera_genlisp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genlisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genlisp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genlisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genlisp.dir/build
 .PHONY : realsense2_camera_genlisp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_eus.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_eus.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_eus.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -897,12 +897,12 @@ actionlib_generate_messages_eus: realsense-ros/realsense2_camera/CMakeFiles/acti
 
 # fast build rule for target.
 actionlib_generate_messages_eus/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_eus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_eus.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_eus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_eus.dir/build
 .PHONY : actionlib_generate_messages_eus/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_eus.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_eus.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_eus.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -912,12 +912,12 @@ tf_generate_messages_eus: realsense-ros/realsense2_camera/CMakeFiles/tf_generate
 
 # fast build rule for target.
 tf_generate_messages_eus/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_eus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_eus.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_eus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_eus.dir/build
 .PHONY : tf_generate_messages_eus/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -927,12 +927,12 @@ diagnostic_msgs_generate_messages_py: realsense-ros/realsense2_camera/CMakeFiles
 
 # fast build rule for target.
 diagnostic_msgs_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
 .PHONY : diagnostic_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_lisp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_lisp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -942,12 +942,12 @@ tf_generate_messages_lisp: realsense-ros/realsense2_camera/CMakeFiles/tf_generat
 
 # fast build rule for target.
 tf_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_lisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_lisp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_lisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_lisp.dir/build
 .PHONY : tf_generate_messages_lisp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_eus.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_eus.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_eus.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -957,12 +957,12 @@ nodelet_generate_messages_eus: realsense-ros/realsense2_camera/CMakeFiles/nodele
 
 # fast build rule for target.
 nodelet_generate_messages_eus/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_eus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_eus.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_eus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/nodelet_generate_messages_eus.dir/build
 .PHONY : nodelet_generate_messages_eus/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_nodejs.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_nodejs.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_nodejs.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -972,12 +972,12 @@ bond_generate_messages_nodejs: realsense-ros/realsense2_camera/CMakeFiles/bond_g
 
 # fast build rule for target.
 bond_generate_messages_nodejs/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_nodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_nodejs.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_nodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/bond_generate_messages_nodejs.dir/build
 .PHONY : bond_generate_messages_nodejs/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -987,12 +987,12 @@ tf2_msgs_generate_messages_nodejs: realsense-ros/realsense2_camera/CMakeFiles/tf
 
 # fast build rule for target.
 tf2_msgs_generate_messages_nodejs/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
 .PHONY : tf2_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_nodejs.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_nodejs.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_nodejs.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1002,12 +1002,12 @@ tf_generate_messages_nodejs: realsense-ros/realsense2_camera/CMakeFiles/tf_gener
 
 # fast build rule for target.
 tf_generate_messages_nodejs/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_nodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_nodejs.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_nodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_nodejs.dir/build
 .PHONY : tf_generate_messages_nodejs/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1017,12 +1017,12 @@ diagnostic_msgs_generate_messages_cpp: realsense-ros/realsense2_camera/CMakeFile
 
 # fast build rule for target.
 diagnostic_msgs_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
 .PHONY : diagnostic_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_py.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_py.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1032,12 +1032,12 @@ tf_generate_messages_py: realsense-ros/realsense2_camera/CMakeFiles/tf_generate_
 
 # fast build rule for target.
 tf_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_py.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_py.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_py.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/tf_generate_messages_py.dir/build
 .PHONY : tf_generate_messages_py/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1047,12 +1047,12 @@ actionlib_msgs_generate_messages_eus: realsense-ros/realsense2_camera/CMakeFiles
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_eus/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
 .PHONY : actionlib_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1062,12 +1062,12 @@ actionlib_generate_messages_lisp: realsense-ros/realsense2_camera/CMakeFiles/act
 
 # fast build rule for target.
 actionlib_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_lisp.dir/build
 .PHONY : actionlib_generate_messages_lisp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1077,12 +1077,12 @@ sensor_msgs_generate_messages_eus: realsense-ros/realsense2_camera/CMakeFiles/se
 
 # fast build rule for target.
 sensor_msgs_generate_messages_eus/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
 .PHONY : sensor_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1092,12 +1092,12 @@ actionlib_msgs_generate_messages_cpp: realsense-ros/realsense2_camera/CMakeFiles
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
 .PHONY : actionlib_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1107,12 +1107,12 @@ actionlib_generate_messages_nodejs: realsense-ros/realsense2_camera/CMakeFiles/a
 
 # fast build rule for target.
 actionlib_generate_messages_nodejs/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
 .PHONY : actionlib_generate_messages_nodejs/fast
 
 # Convenience name for target.
 realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1122,7 +1122,7 @@ tf2_msgs_generate_messages_cpp: realsense-ros/realsense2_camera/CMakeFiles/tf2_m
 
 # fast build rule for target.
 tf2_msgs_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
 .PHONY : tf2_msgs_generate_messages_cpp/fast
 
 src/base_realsense_node.o: src/base_realsense_node.cpp.o
@@ -1131,7 +1131,7 @@ src/base_realsense_node.o: src/base_realsense_node.cpp.o
 
 # target to build an object file
 src/base_realsense_node.cpp.o:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o
 .PHONY : src/base_realsense_node.cpp.o
 
 src/base_realsense_node.i: src/base_realsense_node.cpp.i
@@ -1140,7 +1140,7 @@ src/base_realsense_node.i: src/base_realsense_node.cpp.i
 
 # target to preprocess a source file
 src/base_realsense_node.cpp.i:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.i
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.i
 .PHONY : src/base_realsense_node.cpp.i
 
 src/base_realsense_node.s: src/base_realsense_node.cpp.s
@@ -1149,7 +1149,7 @@ src/base_realsense_node.s: src/base_realsense_node.cpp.s
 
 # target to generate assembly for a file
 src/base_realsense_node.cpp.s:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.s
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.s
 .PHONY : src/base_realsense_node.cpp.s
 
 src/realsense_node_factory.o: src/realsense_node_factory.cpp.o
@@ -1158,7 +1158,7 @@ src/realsense_node_factory.o: src/realsense_node_factory.cpp.o
 
 # target to build an object file
 src/realsense_node_factory.cpp.o:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o
 .PHONY : src/realsense_node_factory.cpp.o
 
 src/realsense_node_factory.i: src/realsense_node_factory.cpp.i
@@ -1167,7 +1167,7 @@ src/realsense_node_factory.i: src/realsense_node_factory.cpp.i
 
 # target to preprocess a source file
 src/realsense_node_factory.cpp.i:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.i
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.i
 .PHONY : src/realsense_node_factory.cpp.i
 
 src/realsense_node_factory.s: src/realsense_node_factory.cpp.s
@@ -1176,7 +1176,7 @@ src/realsense_node_factory.s: src/realsense_node_factory.cpp.s
 
 # target to generate assembly for a file
 src/realsense_node_factory.cpp.s:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.s
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.s
 .PHONY : src/realsense_node_factory.cpp.s
 
 src/t265_realsense_node.o: src/t265_realsense_node.cpp.o
@@ -1185,7 +1185,7 @@ src/t265_realsense_node.o: src/t265_realsense_node.cpp.o
 
 # target to build an object file
 src/t265_realsense_node.cpp.o:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o
 .PHONY : src/t265_realsense_node.cpp.o
 
 src/t265_realsense_node.i: src/t265_realsense_node.cpp.i
@@ -1194,7 +1194,7 @@ src/t265_realsense_node.i: src/t265_realsense_node.cpp.i
 
 # target to preprocess a source file
 src/t265_realsense_node.cpp.i:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.i
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.i
 .PHONY : src/t265_realsense_node.cpp.i
 
 src/t265_realsense_node.s: src/t265_realsense_node.cpp.s
@@ -1203,7 +1203,7 @@ src/t265_realsense_node.s: src/t265_realsense_node.cpp.s
 
 # target to generate assembly for a file
 src/t265_realsense_node.cpp.s:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.s
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.s
 .PHONY : src/t265_realsense_node.cpp.s
 
 # Help Target
@@ -1303,6 +1303,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

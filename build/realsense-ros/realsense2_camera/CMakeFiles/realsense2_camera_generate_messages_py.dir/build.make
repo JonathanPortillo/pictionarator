@@ -43,42 +43,42 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src
+CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build
+CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build
 
 # Utility rule file for realsense2_camera_generate_messages_py.
 
 # Include the progress variables for this target.
 include realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/progress.make
 
-realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_Extrinsics.py
-realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_IMUInfo.py
-realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib/python2.7/dist-packages/realsense2_camera/msg/__init__.py
+realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_Extrinsics.py
+realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_IMUInfo.py
+realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib/python2.7/dist-packages/realsense2_camera/msg/__init__.py
 
 
-/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_Extrinsics.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_Extrinsics.py: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/realsense-ros/realsense2_camera/msg/Extrinsics.msg
-/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_Extrinsics.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG realsense2_camera/Extrinsics"
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/realsense-ros/realsense2_camera && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/realsense-ros/realsense2_camera/msg/Extrinsics.msg -Irealsense2_camera:/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/realsense-ros/realsense2_camera/msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p realsense2_camera -o /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib/python2.7/dist-packages/realsense2_camera/msg
+/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_Extrinsics.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_Extrinsics.py: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/realsense-ros/realsense2_camera/msg/Extrinsics.msg
+/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_Extrinsics.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG realsense2_camera/Extrinsics"
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/realsense-ros/realsense2_camera && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/realsense-ros/realsense2_camera/msg/Extrinsics.msg -Irealsense2_camera:/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/realsense-ros/realsense2_camera/msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p realsense2_camera -o /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib/python2.7/dist-packages/realsense2_camera/msg
 
-/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_IMUInfo.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_IMUInfo.py: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/realsense-ros/realsense2_camera/msg/IMUInfo.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG realsense2_camera/IMUInfo"
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/realsense-ros/realsense2_camera && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/realsense-ros/realsense2_camera/msg/IMUInfo.msg -Irealsense2_camera:/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/realsense-ros/realsense2_camera/msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p realsense2_camera -o /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib/python2.7/dist-packages/realsense2_camera/msg
+/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_IMUInfo.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_IMUInfo.py: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/realsense-ros/realsense2_camera/msg/IMUInfo.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG realsense2_camera/IMUInfo"
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/realsense-ros/realsense2_camera && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/realsense-ros/realsense2_camera/msg/IMUInfo.msg -Irealsense2_camera:/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/realsense-ros/realsense2_camera/msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p realsense2_camera -o /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib/python2.7/dist-packages/realsense2_camera/msg
 
-/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib/python2.7/dist-packages/realsense2_camera/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib/python2.7/dist-packages/realsense2_camera/msg/__init__.py: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_Extrinsics.py
-/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib/python2.7/dist-packages/realsense2_camera/msg/__init__.py: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_IMUInfo.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for realsense2_camera"
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/realsense-ros/realsense2_camera && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib/python2.7/dist-packages/realsense2_camera/msg --initpy
+/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib/python2.7/dist-packages/realsense2_camera/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib/python2.7/dist-packages/realsense2_camera/msg/__init__.py: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_Extrinsics.py
+/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib/python2.7/dist-packages/realsense2_camera/msg/__init__.py: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_IMUInfo.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for realsense2_camera"
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/realsense-ros/realsense2_camera && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib/python2.7/dist-packages/realsense2_camera/msg --initpy
 
 realsense2_camera_generate_messages_py: realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py
-realsense2_camera_generate_messages_py: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_Extrinsics.py
-realsense2_camera_generate_messages_py: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_IMUInfo.py
-realsense2_camera_generate_messages_py: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib/python2.7/dist-packages/realsense2_camera/msg/__init__.py
+realsense2_camera_generate_messages_py: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_Extrinsics.py
+realsense2_camera_generate_messages_py: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib/python2.7/dist-packages/realsense2_camera/msg/_IMUInfo.py
+realsense2_camera_generate_messages_py: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib/python2.7/dist-packages/realsense2_camera/msg/__init__.py
 realsense2_camera_generate_messages_py: realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/build.make
 
 .PHONY : realsense2_camera_generate_messages_py
@@ -89,10 +89,10 @@ realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_p
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/build
 
 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/clean:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/realsense-ros/realsense2_camera && $(CMAKE_COMMAND) -P CMakeFiles/realsense2_camera_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/realsense-ros/realsense2_camera && $(CMAKE_COMMAND) -P CMakeFiles/realsense2_camera_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/clean
 
 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/depend:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/realsense-ros/realsense2_camera /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/realsense-ros/realsense2_camera /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/realsense-ros/realsense2_camera /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/realsense-ros/realsense2_camera /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/depend
 

@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/install")
+  set(CMAKE_INSTALL_PREFIX "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

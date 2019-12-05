@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/ddynamic_reconfigure/include/ddynamic_reconfigure/ddynamic_reconfigure.h
+/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/ddynamic_reconfigure/include/ddynamic_reconfigure/ddynamic_reconfigure.h
 dynamic_reconfigure/server.h
 -
 ddynamic_reconfigure/registered_param.h
@@ -20,7 +20,7 @@ ros/callback_queue.h
 ros/spinner.h
 -
 
-/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/ddynamic_reconfigure/include/ddynamic_reconfigure/ddynamic_reconfigure_utils.h
+/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/ddynamic_reconfigure/include/ddynamic_reconfigure/ddynamic_reconfigure_utils.h
 string
 -
 limits
@@ -28,7 +28,7 @@ limits
 vector
 -
 
-/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/ddynamic_reconfigure/include/ddynamic_reconfigure/registered_param.h
+/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/ddynamic_reconfigure/include/ddynamic_reconfigure/registered_param.h
 string
 -
 map
@@ -40,7 +40,7 @@ type_traits
 dynamic_reconfigure/ParamDescription.h
 -
 
-/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/ddynamic_reconfigure/src/ddynamic_reconfigure.cpp
+/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/ddynamic_reconfigure/src/ddynamic_reconfigure.cpp
 ddynamic_reconfigure/ddynamic_reconfigure.h
 -
 boost/make_unique.hpp

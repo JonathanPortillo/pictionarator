@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++0x -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"ddynamic_reconfigure\" -Dddynamic_reconfigure_EXPORTS
 
-CXX_INCLUDES = -I/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/ddynamic_reconfigure/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/ddynamic_reconfigure/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

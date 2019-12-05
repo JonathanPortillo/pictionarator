@@ -1,8 +1,8 @@
-# Install script for directory: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/realsense-ros/realsense2_description
+# Install script for directory: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/realsense-ros/realsense2_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/install")
+  set(CMAKE_INSTALL_PREFIX "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,26 +33,26 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/realsense-ros/realsense2_description/catkin_generated/installspace/realsense2_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/realsense-ros/realsense2_description/catkin_generated/installspace/realsense2_description.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense2_description/cmake" TYPE FILE FILES
-    "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/realsense-ros/realsense2_description/catkin_generated/installspace/realsense2_descriptionConfig.cmake"
-    "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/realsense-ros/realsense2_description/catkin_generated/installspace/realsense2_descriptionConfig-version.cmake"
+    "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/realsense-ros/realsense2_description/catkin_generated/installspace/realsense2_descriptionConfig.cmake"
+    "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/realsense-ros/realsense2_description/catkin_generated/installspace/realsense2_descriptionConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense2_description" TYPE FILE FILES "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/realsense-ros/realsense2_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense2_description" TYPE FILE FILES "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/realsense-ros/realsense2_description/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense2_description" TYPE DIRECTORY FILES
-    "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/realsense-ros/realsense2_description/launch"
-    "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/realsense-ros/realsense2_description/meshes"
-    "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/realsense-ros/realsense2_description/rviz"
-    "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/realsense-ros/realsense2_description/urdf"
+    "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/realsense-ros/realsense2_description/launch"
+    "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/realsense-ros/realsense2_description/meshes"
+    "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/realsense-ros/realsense2_description/rviz"
+    "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/realsense-ros/realsense2_description/urdf"
     )
 endif()
 

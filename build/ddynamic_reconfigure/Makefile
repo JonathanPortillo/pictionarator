@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src
+CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build
+CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/CMakeFiles /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/ddynamic_reconfigure/CMakeFiles/progress.marks
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/CMakeFiles 0
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/CMakeFiles /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/ddynamic_reconfigure/CMakeFiles/progress.marks
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/clean
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/preinstall
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/preinstall
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/clean_test_results_ddynamic_reconfigure.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/clean_test_results_ddynamic_reconfigure.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/clean_test_results_ddynamic_reconfigure.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/clean_test_results_ddynamic_reconfigure.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ clean_test_results_ddynamic_reconfigure: ddynamic_reconfigure/CMakeFiles/clean_t
 
 # fast build rule for target.
 clean_test_results_ddynamic_reconfigure/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/clean_test_results_ddynamic_reconfigure.dir/build.make ddynamic_reconfigure/CMakeFiles/clean_test_results_ddynamic_reconfigure.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/clean_test_results_ddynamic_reconfigure.dir/build.make ddynamic_reconfigure/CMakeFiles/clean_test_results_ddynamic_reconfigure.dir/build
 .PHONY : clean_test_results_ddynamic_reconfigure/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ _run_tests_ddynamic_reconfigure_rostest: ddynamic_reconfigure/CMakeFiles/_run_te
 
 # fast build rule for target.
 _run_tests_ddynamic_reconfigure_rostest/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest.dir/build.make ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest.dir/build.make ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest.dir/build
 .PHONY : _run_tests_ddynamic_reconfigure_rostest/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ _run_tests_ddynamic_reconfigure: ddynamic_reconfigure/CMakeFiles/_run_tests_ddyn
 
 # fast build rule for target.
 _run_tests_ddynamic_reconfigure/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure.dir/build.make ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure.dir/build.make ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure.dir/build
 .PHONY : _run_tests_ddynamic_reconfigure/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test: ddynamic_
 
 # fast build rule for target.
 run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/build.make ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/build.make ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/build
 .PHONY : run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ test_bool_dynamic_reconfigure_server: ddynamic_reconfigure/CMakeFiles/test_bool_
 
 # fast build rule for target.
 test_bool_dynamic_reconfigure_server/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/build.make ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/build.make ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/build
 .PHONY : test_bool_dynamic_reconfigure_server/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/fake_dynamic_reconfigure_server.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/fake_dynamic_reconfigure_server.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/fake_dynamic_reconfigure_server.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/fake_dynamic_reconfigure_server.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ fake_dynamic_reconfigure_server: ddynamic_reconfigure/CMakeFiles/fake_dynamic_re
 
 # fast build rule for target.
 fake_dynamic_reconfigure_server/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/fake_dynamic_reconfigure_server.dir/build.make ddynamic_reconfigure/CMakeFiles/fake_dynamic_reconfigure_server.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/fake_dynamic_reconfigure_server.dir/build.make ddynamic_reconfigure/CMakeFiles/fake_dynamic_reconfigure_server.dir/build
 .PHONY : fake_dynamic_reconfigure_server/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ std_msgs_generate_messages_lisp: ddynamic_reconfigure/CMakeFiles/std_msgs_genera
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 
 # Convenience name for target.
@@ -282,12 +282,12 @@ dynamic_reconfigure_gencfg: ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_
 
 # fast build rule for target.
 dynamic_reconfigure_gencfg/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
 .PHONY : dynamic_reconfigure_gencfg/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -297,12 +297,12 @@ std_msgs_generate_messages_nodejs: ddynamic_reconfigure/CMakeFiles/std_msgs_gene
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/rule
 
 # Convenience name for target.
@@ -312,12 +312,12 @@ ddynamic_reconfigure_auto_update_test: ddynamic_reconfigure/CMakeFiles/ddynamic_
 
 # fast build rule for target.
 ddynamic_reconfigure_auto_update_test/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/build
 .PHONY : ddynamic_reconfigure_auto_update_test/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -327,12 +327,12 @@ dynamic_reconfigure_generate_messages_lisp: ddynamic_reconfigure/CMakeFiles/dyna
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -342,12 +342,12 @@ std_msgs_generate_messages_eus: ddynamic_reconfigure/CMakeFiles/std_msgs_generat
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -357,12 +357,12 @@ roscpp_generate_messages_lisp: ddynamic_reconfigure/CMakeFiles/roscpp_generate_m
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -372,12 +372,12 @@ dynamic_reconfigure_generate_messages_cpp: ddynamic_reconfigure/CMakeFiles/dynam
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_cpp/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -387,12 +387,12 @@ roscpp_generate_messages_eus: ddynamic_reconfigure/CMakeFiles/roscpp_generate_me
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_eus.dir/build.make ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_eus.dir/build.make ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -402,12 +402,12 @@ dynamic_reconfigure_generate_messages_eus: ddynamic_reconfigure/CMakeFiles/dynam
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_eus/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_eus/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -417,12 +417,12 @@ dynamic_reconfigure_generate_messages_nodejs: ddynamic_reconfigure/CMakeFiles/dy
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_nodejs/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -432,12 +432,12 @@ std_msgs_generate_messages_py: ddynamic_reconfigure/CMakeFiles/std_msgs_generate
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_py.dir/build.make ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_py.dir/build.make ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -447,12 +447,12 @@ dynamic_reconfigure_generate_messages_py: ddynamic_reconfigure/CMakeFiles/dynami
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make ddynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_py.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -462,12 +462,12 @@ roscpp_generate_messages_py: ddynamic_reconfigure/CMakeFiles/roscpp_generate_mes
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_py.dir/build.make ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_py.dir/build.make ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -477,12 +477,12 @@ rosgraph_msgs_generate_messages_eus: ddynamic_reconfigure/CMakeFiles/rosgraph_ms
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-test.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-test.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-test.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-test.dir/rule
 
 # Convenience name for target.
@@ -492,12 +492,12 @@ ddynamic_reconfigure-test: ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-
 
 # fast build rule for target.
 ddynamic_reconfigure-test/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-test.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-test.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-test.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-test.dir/build
 .PHONY : ddynamic_reconfigure-test/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -507,12 +507,12 @@ std_msgs_generate_messages_cpp: ddynamic_reconfigure/CMakeFiles/std_msgs_generat
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make ddynamic_reconfigure/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -522,12 +522,12 @@ rosgraph_msgs_generate_messages_cpp: ddynamic_reconfigure/CMakeFiles/rosgraph_ms
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure.dir/rule
 
 # Convenience name for target.
@@ -537,12 +537,12 @@ run_tests_ddynamic_reconfigure: ddynamic_reconfigure/CMakeFiles/run_tests_ddynam
 
 # fast build rule for target.
 run_tests_ddynamic_reconfigure/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure.dir/build.make ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure.dir/build.make ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure.dir/build
 .PHONY : run_tests_ddynamic_reconfigure/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -552,12 +552,12 @@ roscpp_generate_messages_nodejs: ddynamic_reconfigure/CMakeFiles/roscpp_generate
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -567,12 +567,12 @@ rosgraph_msgs_generate_messages_py: ddynamic_reconfigure/CMakeFiles/rosgraph_msg
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -582,12 +582,12 @@ rosgraph_msgs_generate_messages_lisp: ddynamic_reconfigure/CMakeFiles/rosgraph_m
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/rule
 
 # Convenience name for target.
@@ -597,12 +597,12 @@ _run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test: ddynamic
 
 # fast build rule for target.
 _run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/build.make ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/build.make ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test.dir/build
 .PHONY : _run_tests_ddynamic_reconfigure_rostest_test_ddynamic_reconfigure.test/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest.dir/rule
 
 # Convenience name for target.
@@ -612,12 +612,12 @@ run_tests_ddynamic_reconfigure_rostest: ddynamic_reconfigure/CMakeFiles/run_test
 
 # fast build rule for target.
 run_tests_ddynamic_reconfigure_rostest/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest.dir/build.make ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest.dir/build.make ddynamic_reconfigure/CMakeFiles/run_tests_ddynamic_reconfigure_rostest.dir/build
 .PHONY : run_tests_ddynamic_reconfigure_rostest/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -627,12 +627,12 @@ rosgraph_msgs_generate_messages_nodejs: ddynamic_reconfigure/CMakeFiles/rosgraph
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make ddynamic_reconfigure/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -642,12 +642,12 @@ roscpp_generate_messages_cpp: ddynamic_reconfigure/CMakeFiles/roscpp_generate_me
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/rule:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/rule
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f CMakeFiles/Makefile2 ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/rule
 .PHONY : ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/rule
 
 # Convenience name for target.
@@ -657,7 +657,7 @@ ddynamic_reconfigure: ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/r
 
 # fast build rule for target.
 ddynamic_reconfigure/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/build
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/build
 .PHONY : ddynamic_reconfigure/fast
 
 src/ddynamic_reconfigure.o: src/ddynamic_reconfigure.cpp.o
@@ -666,7 +666,7 @@ src/ddynamic_reconfigure.o: src/ddynamic_reconfigure.cpp.o
 
 # target to build an object file
 src/ddynamic_reconfigure.cpp.o:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/src/ddynamic_reconfigure.cpp.o
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/src/ddynamic_reconfigure.cpp.o
 .PHONY : src/ddynamic_reconfigure.cpp.o
 
 src/ddynamic_reconfigure.i: src/ddynamic_reconfigure.cpp.i
@@ -675,7 +675,7 @@ src/ddynamic_reconfigure.i: src/ddynamic_reconfigure.cpp.i
 
 # target to preprocess a source file
 src/ddynamic_reconfigure.cpp.i:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/src/ddynamic_reconfigure.cpp.i
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/src/ddynamic_reconfigure.cpp.i
 .PHONY : src/ddynamic_reconfigure.cpp.i
 
 src/ddynamic_reconfigure.s: src/ddynamic_reconfigure.cpp.s
@@ -684,7 +684,7 @@ src/ddynamic_reconfigure.s: src/ddynamic_reconfigure.cpp.s
 
 # target to generate assembly for a file
 src/ddynamic_reconfigure.cpp.s:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/src/ddynamic_reconfigure.cpp.s
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure.dir/src/ddynamic_reconfigure.cpp.s
 .PHONY : src/ddynamic_reconfigure.cpp.s
 
 test/ddynamic_reconfigure_auto_update_test.o: test/ddynamic_reconfigure_auto_update_test.cpp.o
@@ -693,7 +693,7 @@ test/ddynamic_reconfigure_auto_update_test.o: test/ddynamic_reconfigure_auto_upd
 
 # target to build an object file
 test/ddynamic_reconfigure_auto_update_test.cpp.o:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/test/ddynamic_reconfigure_auto_update_test.cpp.o
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/test/ddynamic_reconfigure_auto_update_test.cpp.o
 .PHONY : test/ddynamic_reconfigure_auto_update_test.cpp.o
 
 test/ddynamic_reconfigure_auto_update_test.i: test/ddynamic_reconfigure_auto_update_test.cpp.i
@@ -702,7 +702,7 @@ test/ddynamic_reconfigure_auto_update_test.i: test/ddynamic_reconfigure_auto_upd
 
 # target to preprocess a source file
 test/ddynamic_reconfigure_auto_update_test.cpp.i:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/test/ddynamic_reconfigure_auto_update_test.cpp.i
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/test/ddynamic_reconfigure_auto_update_test.cpp.i
 .PHONY : test/ddynamic_reconfigure_auto_update_test.cpp.i
 
 test/ddynamic_reconfigure_auto_update_test.s: test/ddynamic_reconfigure_auto_update_test.cpp.s
@@ -711,7 +711,7 @@ test/ddynamic_reconfigure_auto_update_test.s: test/ddynamic_reconfigure_auto_upd
 
 # target to generate assembly for a file
 test/ddynamic_reconfigure_auto_update_test.cpp.s:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/test/ddynamic_reconfigure_auto_update_test.cpp.s
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/test/ddynamic_reconfigure_auto_update_test.cpp.s
 .PHONY : test/ddynamic_reconfigure_auto_update_test.cpp.s
 
 test/fake_dynamic_reconfigure_server.o: test/fake_dynamic_reconfigure_server.cpp.o
@@ -720,7 +720,7 @@ test/fake_dynamic_reconfigure_server.o: test/fake_dynamic_reconfigure_server.cpp
 
 # target to build an object file
 test/fake_dynamic_reconfigure_server.cpp.o:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/fake_dynamic_reconfigure_server.dir/build.make ddynamic_reconfigure/CMakeFiles/fake_dynamic_reconfigure_server.dir/test/fake_dynamic_reconfigure_server.cpp.o
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/fake_dynamic_reconfigure_server.dir/build.make ddynamic_reconfigure/CMakeFiles/fake_dynamic_reconfigure_server.dir/test/fake_dynamic_reconfigure_server.cpp.o
 .PHONY : test/fake_dynamic_reconfigure_server.cpp.o
 
 test/fake_dynamic_reconfigure_server.i: test/fake_dynamic_reconfigure_server.cpp.i
@@ -729,7 +729,7 @@ test/fake_dynamic_reconfigure_server.i: test/fake_dynamic_reconfigure_server.cpp
 
 # target to preprocess a source file
 test/fake_dynamic_reconfigure_server.cpp.i:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/fake_dynamic_reconfigure_server.dir/build.make ddynamic_reconfigure/CMakeFiles/fake_dynamic_reconfigure_server.dir/test/fake_dynamic_reconfigure_server.cpp.i
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/fake_dynamic_reconfigure_server.dir/build.make ddynamic_reconfigure/CMakeFiles/fake_dynamic_reconfigure_server.dir/test/fake_dynamic_reconfigure_server.cpp.i
 .PHONY : test/fake_dynamic_reconfigure_server.cpp.i
 
 test/fake_dynamic_reconfigure_server.s: test/fake_dynamic_reconfigure_server.cpp.s
@@ -738,7 +738,7 @@ test/fake_dynamic_reconfigure_server.s: test/fake_dynamic_reconfigure_server.cpp
 
 # target to generate assembly for a file
 test/fake_dynamic_reconfigure_server.cpp.s:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/fake_dynamic_reconfigure_server.dir/build.make ddynamic_reconfigure/CMakeFiles/fake_dynamic_reconfigure_server.dir/test/fake_dynamic_reconfigure_server.cpp.s
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/fake_dynamic_reconfigure_server.dir/build.make ddynamic_reconfigure/CMakeFiles/fake_dynamic_reconfigure_server.dir/test/fake_dynamic_reconfigure_server.cpp.s
 .PHONY : test/fake_dynamic_reconfigure_server.cpp.s
 
 test/test_bool_dynamic_reconfigure_server.o: test/test_bool_dynamic_reconfigure_server.cpp.o
@@ -747,7 +747,7 @@ test/test_bool_dynamic_reconfigure_server.o: test/test_bool_dynamic_reconfigure_
 
 # target to build an object file
 test/test_bool_dynamic_reconfigure_server.cpp.o:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/build.make ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/build.make ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.o
 .PHONY : test/test_bool_dynamic_reconfigure_server.cpp.o
 
 test/test_bool_dynamic_reconfigure_server.i: test/test_bool_dynamic_reconfigure_server.cpp.i
@@ -756,7 +756,7 @@ test/test_bool_dynamic_reconfigure_server.i: test/test_bool_dynamic_reconfigure_
 
 # target to preprocess a source file
 test/test_bool_dynamic_reconfigure_server.cpp.i:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/build.make ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.i
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/build.make ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.i
 .PHONY : test/test_bool_dynamic_reconfigure_server.cpp.i
 
 test/test_bool_dynamic_reconfigure_server.s: test/test_bool_dynamic_reconfigure_server.cpp.s
@@ -765,7 +765,7 @@ test/test_bool_dynamic_reconfigure_server.s: test/test_bool_dynamic_reconfigure_
 
 # target to generate assembly for a file
 test/test_bool_dynamic_reconfigure_server.cpp.s:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/build.make ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.s
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/build.make ddynamic_reconfigure/CMakeFiles/test_bool_dynamic_reconfigure_server.dir/test/test_bool_dynamic_reconfigure_server.cpp.s
 .PHONY : test/test_bool_dynamic_reconfigure_server.cpp.s
 
 test/test_ddynamic_reconfigure.o: test/test_ddynamic_reconfigure.cpp.o
@@ -774,7 +774,7 @@ test/test_ddynamic_reconfigure.o: test/test_ddynamic_reconfigure.cpp.o
 
 # target to build an object file
 test/test_ddynamic_reconfigure.cpp.o:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-test.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-test.dir/test/test_ddynamic_reconfigure.cpp.o
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-test.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-test.dir/test/test_ddynamic_reconfigure.cpp.o
 .PHONY : test/test_ddynamic_reconfigure.cpp.o
 
 test/test_ddynamic_reconfigure.i: test/test_ddynamic_reconfigure.cpp.i
@@ -783,7 +783,7 @@ test/test_ddynamic_reconfigure.i: test/test_ddynamic_reconfigure.cpp.i
 
 # target to preprocess a source file
 test/test_ddynamic_reconfigure.cpp.i:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-test.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-test.dir/test/test_ddynamic_reconfigure.cpp.i
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-test.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-test.dir/test/test_ddynamic_reconfigure.cpp.i
 .PHONY : test/test_ddynamic_reconfigure.cpp.i
 
 test/test_ddynamic_reconfigure.s: test/test_ddynamic_reconfigure.cpp.s
@@ -792,7 +792,7 @@ test/test_ddynamic_reconfigure.s: test/test_ddynamic_reconfigure.cpp.s
 
 # target to generate assembly for a file
 test/test_ddynamic_reconfigure.cpp.s:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-test.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-test.dir/test/test_ddynamic_reconfigure.cpp.s
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(MAKE) -f ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-test.dir/build.make ddynamic_reconfigure/CMakeFiles/ddynamic_reconfigure-test.dir/test/test_ddynamic_reconfigure.cpp.s
 .PHONY : test/test_ddynamic_reconfigure.cpp.s
 
 # Help Target
@@ -867,6 +867,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

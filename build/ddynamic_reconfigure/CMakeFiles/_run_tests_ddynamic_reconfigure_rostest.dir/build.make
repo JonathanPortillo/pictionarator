@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src
+CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build
+CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build
 
 # Utility rule file for _run_tests_ddynamic_reconfigure_rostest.
 
@@ -63,10 +63,10 @@ ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest.dir/buil
 .PHONY : ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest.dir/build
 
 ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest.dir/clean:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/ddynamic_reconfigure && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_ddynamic_reconfigure_rostest.dir/cmake_clean.cmake
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/ddynamic_reconfigure && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_ddynamic_reconfigure_rostest.dir/cmake_clean.cmake
 .PHONY : ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest.dir/clean
 
 ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest.dir/depend:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/ddynamic_reconfigure /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/ddynamic_reconfigure /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/ddynamic_reconfigure /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/ddynamic_reconfigure /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ddynamic_reconfigure/CMakeFiles/_run_tests_ddynamic_reconfigure_rostest.dir/depend
 

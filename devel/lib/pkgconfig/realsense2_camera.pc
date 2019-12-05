@@ -1,8 +1,8 @@
-prefix=/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel
+prefix=/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel
 
 Name: realsense2_camera
 Description: Description of realsense2_camera
 Version: 2.2.8
-Cflags: -I/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/include
-Libs: -L/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib -lrealsense2_camera
+Cflags: -I/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/include
+Libs: -L/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib -lrealsense2_camera
 Requires: message_runtime roscpp sensor_msgs std_msgs nodelet cv_bridge image_transport ddynamic_reconfigure nav_msgs

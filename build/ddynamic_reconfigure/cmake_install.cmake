@@ -1,8 +1,8 @@
-# Install script for directory: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/ddynamic_reconfigure
+# Install script for directory: /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/ddynamic_reconfigure
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/install")
+  set(CMAKE_INSTALL_PREFIX "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/ddynamic_reconfigure/catkin_generated/installspace/ddynamic_reconfigure.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/ddynamic_reconfigure/catkin_generated/installspace/ddynamic_reconfigure.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ddynamic_reconfigure/cmake" TYPE FILE FILES
-    "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/ddynamic_reconfigure/catkin_generated/installspace/ddynamic_reconfigureConfig.cmake"
-    "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/ddynamic_reconfigure/catkin_generated/installspace/ddynamic_reconfigureConfig-version.cmake"
+    "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/ddynamic_reconfigure/catkin_generated/installspace/ddynamic_reconfigureConfig.cmake"
+    "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/ddynamic_reconfigure/catkin_generated/installspace/ddynamic_reconfigureConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ddynamic_reconfigure" TYPE FILE FILES "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/ddynamic_reconfigure/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ddynamic_reconfigure" TYPE FILE FILES "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/ddynamic_reconfigure/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -54,7 +54,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libddynamic_reconfigure.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib/libddynamic_reconfigure.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib/libddynamic_reconfigure.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libddynamic_reconfigure.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libddynamic_reconfigure.so")
     file(RPATH_CHANGE
@@ -68,6 +68,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ddynamic_reconfigure" TYPE DIRECTORY FILES "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/ddynamic_reconfigure/include/ddynamic_reconfigure/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ddynamic_reconfigure" TYPE DIRECTORY FILES "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/ddynamic_reconfigure/include/ddynamic_reconfigure/")
 endif()
 

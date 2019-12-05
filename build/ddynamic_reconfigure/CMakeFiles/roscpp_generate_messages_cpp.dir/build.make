@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src
+CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build
+CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build
 
 # Utility rule file for roscpp_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_cpp.dir/build: roscpp_g
 .PHONY : ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 
 ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/ddynamic_reconfigure && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/ddynamic_reconfigure && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 
 ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_cpp.dir/depend:
-	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/src/ddynamic_reconfigure /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/ddynamic_reconfigure /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/build/ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/ddynamic_reconfigure /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/ddynamic_reconfigure /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ddynamic_reconfigure/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
 

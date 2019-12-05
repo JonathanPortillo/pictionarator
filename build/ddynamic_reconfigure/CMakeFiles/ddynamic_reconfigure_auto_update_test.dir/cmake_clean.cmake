@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ddynamic_reconfigure_auto_update_test.dir/test/ddynamic_reconfigure_auto_update_test.cpp.o"
-  "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib/ddynamic_reconfigure/ddynamic_reconfigure_auto_update_test.pdb"
-  "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/project/devel/lib/ddynamic_reconfigure/ddynamic_reconfigure_auto_update_test"
+  "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib/ddynamic_reconfigure/ddynamic_reconfigure_auto_update_test.pdb"
+  "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel/lib/ddynamic_reconfigure/ddynamic_reconfigure_auto_update_test"
 )
 
 # Per-language clean rules from dependency scanning.
