@@ -1,2 +1,2 @@
-ddynamic_reconfigure:realsense-ros/realsense2_camera:realsense-ros/realsense2_description:ros_numpy:segmentation
+cv:ddynamic_reconfigure:realsense-ros/realsense2_camera:realsense-ros/realsense2_description:ros_numpy:segmentation
 -DCATKIN_DEVEL_PREFIX=/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel -DCMAKE_INSTALL_PREFIX=/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/install -G Unix Makefiles

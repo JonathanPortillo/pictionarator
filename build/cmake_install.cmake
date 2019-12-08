@@ -129,6 +129,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/realsense-ros/realsense2_description/cmake_install.cmake")
   include("/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/ros_numpy/cmake_install.cmake")
   include("/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/ddynamic_reconfigure/cmake_install.cmake")
+  include("/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/cv/cmake_install.cmake")
   include("/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/realsense-ros/realsense2_camera/cmake_install.cmake")
   include("/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/segmentation/cmake_install.cmake")
 
