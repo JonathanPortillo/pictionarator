@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/src
+CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/build
+CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build
 
 # Utility rule file for octomap_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ planning/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build: octomap_msgs_g
 .PHONY : planning/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build
 
 planning/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/clean:
-	cd /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/build/planning && $(CMAKE_COMMAND) -P CMakeFiles/octomap_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/planning && $(CMAKE_COMMAND) -P CMakeFiles/octomap_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : planning/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/clean
 
 planning/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/depend:
-	cd /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/src /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/src/planning /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/build /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/build/planning /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/build/planning/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/planning /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/planning /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/planning/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : planning/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/depend
 

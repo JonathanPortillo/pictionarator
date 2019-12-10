@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/src
+CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/build
+CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build
 
 # Utility rule file for shape_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ planning/CMakeFiles/shape_msgs_generate_messages_py.dir/build: shape_msgs_genera
 .PHONY : planning/CMakeFiles/shape_msgs_generate_messages_py.dir/build
 
 planning/CMakeFiles/shape_msgs_generate_messages_py.dir/clean:
-	cd /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/build/planning && $(CMAKE_COMMAND) -P CMakeFiles/shape_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/planning && $(CMAKE_COMMAND) -P CMakeFiles/shape_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : planning/CMakeFiles/shape_msgs_generate_messages_py.dir/clean
 
 planning/CMakeFiles/shape_msgs_generate_messages_py.dir/depend:
-	cd /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/src /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/src/planning /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/build /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/build/planning /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/build/planning/CMakeFiles/shape_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/planning /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/planning /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/planning/CMakeFiles/shape_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : planning/CMakeFiles/shape_msgs_generate_messages_py.dir/depend
 

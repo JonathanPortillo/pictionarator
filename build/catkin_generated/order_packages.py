@@ -2,4 +2,4 @@
 source_root_dir = "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src"
 whitelisted_packages = "".split(';') if "" != "" else []
 blacklisted_packages = "".split(';') if "" != "" else []
-underlay_workspaces = "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel;/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/lab7/devel;/scratch/shared/baxter_ws/devel;/opt/ros/kinetic".split(';') if "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel;/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/lab7/devel;/scratch/shared/baxter_ws/devel;/opt/ros/kinetic" != "" else []
+underlay_workspaces = "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel;/scratch/shared/baxter_ws/devel;/opt/ros/kinetic".split(';') if "/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/devel;/scratch/shared/baxter_ws/devel;/opt/ros/kinetic" != "" else []
