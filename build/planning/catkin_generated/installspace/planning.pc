@@ -1,8 +1,8 @@
-prefix=/home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/install
+prefix=/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/install
 
 Name: planning
 Description: Description of planning
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/install/lib 
+Libs: -L/home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/install/lib 
 Requires: 

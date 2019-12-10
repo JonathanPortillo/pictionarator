@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/src
+CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/build
+CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build
 
 # Utility rule file for intera_motion_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ planning/CMakeFiles/intera_motion_msgs_generate_messages_nodejs.dir/build: inter
 .PHONY : planning/CMakeFiles/intera_motion_msgs_generate_messages_nodejs.dir/build
 
 planning/CMakeFiles/intera_motion_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/build/planning && $(CMAKE_COMMAND) -P CMakeFiles/intera_motion_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/planning && $(CMAKE_COMMAND) -P CMakeFiles/intera_motion_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : planning/CMakeFiles/intera_motion_msgs_generate_messages_nodejs.dir/clean
 
 planning/CMakeFiles/intera_motion_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/src /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/src/planning /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/build /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/build/planning /home/cc/ee106a/fa19/class/ee106a-afn/ros_workspaces/lab7/build/planning/CMakeFiles/intera_motion_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/src/planning /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/planning /home/cc/ee106a/fa19/class/ee106a-afi/ros_workspaces/pictionarator/build/planning/CMakeFiles/intera_motion_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : planning/CMakeFiles/intera_motion_msgs_generate_messages_nodejs.dir/depend
 

@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+
+
+
+
 import math, os, sys, time
 import rospy
 import ros_numpy
@@ -24,7 +29,7 @@ from cv_bridge import CvBridge, CvBridgeError
 # OpenCV2 for saving an image
 import cv2
 import icp
-from model_generator import Creation, Strategy
+# from model_generator import Creation, Strategy
 
 
 
@@ -544,18 +549,18 @@ def get_one_pointcloud():
     
     rospy.init_node('image_listener')
     
-    pointcloud_topic = "/camera/depth_registered/points"
-    depth_topic = "/camera/depth_registered/image_raw"
-    image_topic = "/camera/rgb/image_raw"
-    ar_topic = '/ar_pose_marker'
+    pointcloud_topic = "/camera/depth/color/points"
+    depth_topic = "/camera/depth/image_rect_raw"
+    image_topic = "/camera/color/image_raw"
+    # ar_topic = '/ar_pose_marker'
     
-    while not rospy.core.is_shutdown() and not received_marker:
+    # while not rospy.core.is_shutdown() and not received_marker:
         
-        rospy.Subscriber(ar_topic, AlvarMarkers, ar_marker_callback)
+    #     rospy.Subscriber(ar_topic, AlvarMarkers, ar_marker_callback)
 
-    rospy.rostime.wallsleep(0.05)
+    # rospy.rostime.wallsleep(0.05)
 
-    print("Got Marker!")
+    # print("Got Marker!")
 
     while not rospy.core.is_shutdown() and not received_points:
         rospy.Subscriber(pointcloud_topic, PointCloud2, pointcloud_callback)
@@ -585,40 +590,40 @@ def main():
 
 
     #if there are multiple captures pointcloud_callback appends another xyz array onto the model_3pc npy array the three following lines assert that they are correctly appended    
-    assert len(pointclouds) == num_clouds
-    assert len(marker_rotations) == num_clouds
-    assert len(marker_translations) == num_clouds
+    # assert len(pointclouds) == num_clouds
+    # assert len(marker_rotations) == num_clouds
+    # assert len(marker_translations) == num_clouds
     
-    pc = [transform(p, r, t) for p, r, t in zip(pointclouds, marker_rotations,
-                                                            marker_translations)]
+    # pc = [transform(p, r, t) for p, r, t in zip(pointclouds, marker_rotations,
+    #                                                         marker_translations)]
 
-    length = min([len(x) for x in pc])
-    pc = [y[:length] for y in pc]
+    # length = min([len(x) for x in pc])
+    # pc = [y[:length] for y in pc]
 
-    new_points = icp.icp_all(pc)
+    # new_points = icp.icp_all(pc)
 
 
-    t2 = time.time()
-    no_floor = new_points[new_points[:, 2] > 0.01]
-    bbox = find_baseplate(no_floor)
-    t3 = time.time()
+    # t2 = time.time()
+    # no_floor = new_points[new_points[:, 2] > 0.01]
+    # bbox = find_baseplate(no_floor)
+    # t3 = time.time()
 
-    print "Found Baseplate in", t3 - t2, "seconds"
+    # print "Found Baseplate in", t3 - t2, "seconds"
 
-    mi1, mi2, ma1, ma2 = bbox
-    mins, maxs = np.array([mi1, mi2]), np.array([ma1, ma2])
-    bbox_mask = np.all((no_floor[:, :2] > mins) & (no_floor[:, :2] < maxs), axis=1)
-    filtered = no_floor[bbox_mask]
-    pointcloud_vis(filtered, bbox)
-    grid = voxelize_kde(filtered, bbox, num_clouds)
-    result = clean_up_by_layer(grid).astype(np.int32)
+    # mi1, mi2, ma1, ma2 = bbox
+    # mins, maxs = np.array([mi1, mi2]), np.array([ma1, ma2])
+    # bbox_mask = np.all((no_floor[:, :2] > mins) & (no_floor[:, :2] < maxs), axis=1)
+    # filtered = no_floor[bbox_mask]
+    # pointcloud_vis(filtered, bbox)
+    # grid = voxelize_kde(filtered, bbox, num_clouds)
+    # result = clean_up_by_layer(grid).astype(np.int32)
 
-    creation = Creation(result)
-    strategy = Strategy(creation).compute_strategy()
+    # creation = Creation(result)
+    # strategy = Strategy(creation).compute_strategy()
 
-    np.save('strategy', strategy)
+    # np.save('strategy', strategy)
 
-    print(strategy)
+    # print(strategy)
 
     # plt.imshow(result)
     # plt.colorbar()
