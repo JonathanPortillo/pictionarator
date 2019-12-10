@@ -31,6 +31,7 @@ def segment_pointcloud(points, segmented_image, cam_matrix, trans, rot):
     return points[point_labels == 1]
 
 def project_points(points, cam_matrix, trans, rot):
+
     """
     This funtion should perform the job of projecting the input pointcloud onto the frame
     of an image captured by a camera with camera matrix as given, of dimensions as given,
@@ -94,19 +95,22 @@ def project_points(points, cam_matrix, trans, rot):
     """
 
     # STEP 1: Transform pointcloud into new reference frame.
-    points = np.dot(TODO, TODO) + trans[:, None]
+    points = np.dot(rot, points) + trans[:, None]
 
     # STEP 2: Project new pointcloud onto image frame using K matrix.
     # gives a 3 x N array of image plane coordinates in homogenous coordinates.
-    homo_pixel_coords = np.dot(TODO, TODO)
+    homo_pixel_coords = np.dot(cam_matrix, points)
 
     # STEP 3: Convert homogenous coordinates to regular 2D coordinates.
     # To do this, you need to divide the first two coordinates of homo_pixel_coords
     # by the third coordinate.
-    pixel_coords = TODO / TODO
+    u = homo_pixel_coords[0]
+    v = homo_pixel_coords[1]
+    w = homo_pixel_coords[2]
+    pixel_coords = np.array([ np.array([u_, v_]) / w_ for u_, v_, w_ in zip(u,v,w)]).T
 
     # STEP 4: Convert to integers. Take the floor of pixel_coords then cast it
     # to an integer type, like numpy.int32
-    pixel_coords = TODO
+    pixel_coords = np.floor(pixel_coords).astype(np.int32)
 
     return pixel_coords
