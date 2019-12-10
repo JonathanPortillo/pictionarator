@@ -29,12 +29,13 @@ from controller import Controller
 
 #need to somehow get PoseStamped message from CV stuff
 def getGoal():
+    #naive goal, replace
 
 
 
 #moveit_msgs/OrientationConstraint message
 def getOrientationConstraint():
-
+    #naive orientation constraint, replace
 
 #for main: idea is to getGoals from CV
 #then calculate angles for the path (IK)

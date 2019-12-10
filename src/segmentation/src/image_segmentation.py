@@ -5,7 +5,7 @@ Author: Grant Wang
 
 This Python file is the skeleton code for Lab 3. You are expected to fill in
 the body of the incomplete functions below to complete the lab. The 'test_..'
-functions are already defined for you for allowing you to check your 
+functions are already defined for you for allowing you to check your
 implementations.
 
 When you believe you have completed implementations of all the incompeleted
@@ -39,7 +39,7 @@ def read_image(img_name, grayscale=False):
         name of image
     grayscale : boolean
         true if image is in grayscale, false o/w
-    
+
     Returns
     -------
     ndarray
@@ -55,7 +55,7 @@ def read_image(img_name, grayscale=False):
 
 def write_image(img, img_name):
     """writes the image as a file
-    
+
     Parameters
     ----------
     img : ndarray
@@ -68,7 +68,7 @@ def write_image(img, img_name):
 
 def show_image(img_name, title='Fig', grayscale=False):
     """show the  as a matplotlib figure
-    
+
     Parameters
     ----------
     img_name : str
@@ -108,12 +108,26 @@ def threshold_segment_naive(gray_img, lower_thresh, upper_thresh):
     ndarray
         thresholded version of gray_img
     """
-    # TODO: Implement threshold segmentation by setting pixels of gray_img inside the 
+    # TODO: Implement threshold segmentation by setting pixels of gray_img inside the
     # lower_thresh and upper_thresh parameters to 0
-    # Then set any value that is outside the range to be 1 
+    # Then set any value that is outside the range to be 1
     # Hints: make a copy of gray_img so that we don't alter the original image
-    # Boolean array indexing, or masking will come in handy. 
+    # Boolean array indexing, or masking will come in handy.
     # See https://docs.scipy.org/doc/numpy-1.13.0/user/basics.indexing.html
+
+    new_img = np.zeros(gray_img.shape)
+
+    lower_arrray = (gray_img <= lower_thresh)
+    new_img[lower_arrray] = 1
+    upper_array =  (gray_img >= upper_thresh)
+    new_img[upper_array] = 1
+
+
+
+    # return gray_img
+    return new_img
+
+
 
     raise NotImplementedError()
 
@@ -133,10 +147,17 @@ def edge_detect_naive(gray_img):
         gray_img with edges outlined
     """
 
-    gray_s = gray_img.astype('int16') # convert to int16 for better img quality 
+    gray_s = gray_img.astype('int16') # convert to int16 for better img quality
+    # blur = gray_s
+    blur = cv2.GaussianBlur(gray_s, (5, 5), 0)
+    Kx = np.array([[-1, 0, 1], [-2, 0, 2], [-1, 0, 1]])
+    Ky = np.array([[-1, -2, -1], [0, 0, 0],[1, 2, 1]])
+    Gx = ndimage.convolve(blur, Kx, mode='constant', cval=0.0)
+    Gy = ndimage.convolve(blur, Ky, mode='constant', cval=0.0)
+    G = np.sqrt(Gx ** 2 + Gy ** 2)
     # TODO: Blur gray_s using Gaussian blurring, convole the blurred image with
     # Sobel filters, and combine to compute the intensity gradient image (image with edges highlighted)
-    # Hints: open-cv GaussianBlur will be helpful https://medium.com/analytics-vidhya/gaussian-blurring-with-python-and-opencv-ba8429eb879b 
+    # Hints: open-cv GaussianBlur will be helpful https://medium.com/analytics-vidhya/gaussian-blurring-with-python-and-opencv-ba8429eb879b
     # the scipy.ndimage.filters class (imported already) has a useful convolve function
 
     # Steps
@@ -146,7 +167,8 @@ def edge_detect_naive(gray_img):
     # 4. compute G = sqrt(Gx ** 2 + Gy ** 2)
     # 5. Return G
 
-    raise NotImplementedError()
+    # raise NotImplementedError()
+    return G
 
 def edge_detect_canny(gray_img):
     """perform Canny edge detection
@@ -162,7 +184,7 @@ def edge_detect_canny(gray_img):
         gray_img with edges outlined
     """
 
-    edges = cv2.Canny(gray_img, 100, 200)
+    edges = cv2.Canny(gray_img, 50, 200)
 
     return edges
 
@@ -184,7 +206,7 @@ def cluster_segment(img, n_clusters, random_state=0):
         clusters of gray_img represented with similar pixel values
     """
     # Remove this line when you implement this function.
-    raise NotImplementedError()
+    # raise NotImplementedError()
 
     # Downsample img first using the mean to speed up K-means
     img_d = block_reduce(img, block_size=(2, 2, 1), func=np.mean)
@@ -193,19 +215,21 @@ def cluster_segment(img, n_clusters, random_state=0):
 
     # first convert our 3-dimensional img_d array to a 2-dimensional array
     # whose shape will be (length * width, number of channels) hint: use img_d.shape
-    img_r = TODO
-    
+    w, h, num_channels = img_d.shape
+    img_r = img_d.reshape(-1,num_channels)
+
     # fit the k-means algorithm on this reshaped array img_r using the
     # the scikit-learn k-means class and fit function
     # see https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html
     # the only parameters you have to worry about are n_clusters and random_state
-    kmeans = TODO
+    kmeans = KMeans(n_clusters=n_clusters, random_state=0).fit(img_r)
 
     # get the labeled cluster image using kmeans.labels_
-    clusters = TODO
+    clusters = kmeans.predict(img_r)
+    # print(clusters.size, img_r.size)
 
     # reshape this clustered image to the original downsampled image (img_d) shape
-    cluster_img = TODO
+    cluster_img = clusters.reshape(w, h)
 
     # Upsample the image back to the original image (img) using nearest interpolation
     img_u = imresize(cluster_img, (img.shape[0], img.shape[1]), interp='nearest')
@@ -215,11 +239,11 @@ def cluster_segment(img, n_clusters, random_state=0):
 def to_grayscale(rgb_img):
     return np.dot(rgb_img[... , :3] , [0.299 , 0.587, 0.114])
 
-def segment_image(img): 
+def segment_image(img):
     # ONLY USE ONE THRESHOLDING METHOD
 
     # perform thresholding segmentation
-    binary = threshold_segment_naive(to_grayscale(img), TODO, TODO).astype(np.uint8)
+    binary = threshold_segment_naive(to_grayscale(img), 100, 200).astype(np.uint8)
 
     # perform clustering segmentation (make image binary)
     # binary = cluster_segment(img, 2).astype(np.uint8) / 255
@@ -244,6 +268,7 @@ def test_edge_naive(img):
     show_image(edges, title='edge naive', grayscale=True)
     cv2.imwrite(IMG_DIR + "/edges.jpg", edges)
 
+
 def test_edge_canny(img):
     edges = edge_detect_canny(img)
     show_image(edges, title='edge canny', grayscale=True)
@@ -259,12 +284,16 @@ def test_cluster(img, n_clusters):
 if __name__ == '__main__':
     # adjust the file names here
     test_img = read_image(IMG_DIR + '/legos.jpg', grayscale=True)
+    test_img_2 = read_image(IMG_DIR + '/rgb_test.jpg', grayscale=True)
+    test_img_3 = read_image(IMG_DIR + '/lego.jpg', grayscale=True)
     test_img_color = read_image(IMG_DIR + '/legos.jpg')
+    test_img_color_2 = read_image(IMG_DIR + '/rgb_test.jpg')
+    test_img_color_3 = read_image(IMG_DIR + '/lego.jpg')
 
     # uncomment the test you want to run
     # it will plot the image and also save it
 
-    test_thresh_naive(test_img, TODO, TODO)
+    # test_thresh_naive(test_img, 210, 255)
     # test_edge_naive(test_img)
     # test_edge_canny(test_img)
-    # test_cluster(test_img_color, 2)
+    test_cluster(test_img_color_3, 2)
