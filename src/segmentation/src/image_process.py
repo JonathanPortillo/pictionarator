@@ -5,9 +5,13 @@ from rigid_transform_3D import rigid_transform_3D
 
 # segment pointcloud
 # need segmented image first, also need camera dimensions
+# use pointcloud_segmentation.segment_pointcloud
 
 # use RGB to match objects
-
+def match_objects(cluster1, cluster2):
+    # takes in the clustered objects in starting and final image
+    # returns a list of tuples of matching objects
+    return
 
 # calculate rotation from start to end
 def rotation(img1, img2):
@@ -34,6 +38,9 @@ def grasp_orientation(img):
     # assuming the grasper's resting orientation/origin is the x-axis
     grasp_angle = orientation - (np.pi / 2)
     return grasp_angle
+
+# we need grasp depth
+
 
 def main():
     # I guess this puts it all together
