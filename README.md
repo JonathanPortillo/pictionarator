@@ -11,3 +11,5 @@ http://www.open3d.org/docs/release/tutorial/Advanced/global_registration.html
 
 http://wiki.ros.org/pointcloud_registration
 
+3.) This finds the transformation between two point clouds. We can use clustering to segment each object then find the transfornmation of each object:
+https://github.com/nghiaho12/rigid_transform_3D/blob/master/rigid_transform_3D.py
