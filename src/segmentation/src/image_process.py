@@ -41,6 +41,27 @@ def grasp_orientation(img):
 
 # we need grasp depth
 
+# find position of object relative to AR tag
+def object_position(object_centroid, focal_dim, frame_dim):
+    # params: 
+    #   centroids: 2D coordinates (pixels) from the RGB image, 
+    #   focal_dim: dimensions of image (pixels)
+    #   frame_dim: dimensions of image (METERS)
+    # returns: vector from one centroid to the other in METERS
+    # assumptions: the AR tag is in the top-left corner since the origin for the image is the top-left
+    TAG_LENGTH = 0.165
+
+    # find coordinates of tag centroid assuming top left corner AND it's a square
+    scale = focal_dim[0] / frame_dim[0] # ratio of pixel to irl length
+    tag_pixel_length = TAG_LENGTH * scale
+    tag_centroid = [tag_pixel_length, tag_pixel_length]
+
+    # distance from tag to object
+    pixel_vector = object_centroid - tag_centroid
+    irl_vector = pixel_vector / scale
+
+    return irl_vector
+
 
 def main():
     # I guess this puts it all together
