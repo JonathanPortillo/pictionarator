@@ -53,6 +53,8 @@ colors = ((0, 0, 255), (240, 0, 159), (0, 165, 255), (255, 255, 0),
 	(255, 0, 255))
 refObj = None
 
+distance_coordincates = []
+
 # loop over the contours individually
 for c in cnts:
 	# if the contour is not sufficiently large, ignore it
@@ -101,25 +103,42 @@ for c in cnts:
 	refCoords = np.vstack([refObj[0], refObj[1]])
 	objCoords = np.vstack([box, (cX, cY)])
 
+
+	counter = 0
 	# loop over the original points
 	for ((xA, yA), (xB, yB), color) in zip(refCoords, objCoords, colors):
 		# draw circles corresponding to the current points and
 		# connect them with a line
-		cv2.circle(orig, (int(xA), int(yA)), 5, color, -1)
-		cv2.circle(orig, (int(xB), int(yB)), 5, color, -1)
-		cv2.line(orig, (int(xA), int(yA)), (int(xB), int(yB)),
-			color, 2)
+		if counter < 4:
+			counter += 1
+			continue
+		else:
+			counter = 0
+			cv2.circle(orig, (int(xA), int(yA)), 5, color, -1)
+			cv2.circle(orig, (int(xB), int(yB)), 5, color, -1)
+			cv2.line(orig, (int(xA), int(yA)), (int(xB), int(yB)),
+				color, 2)
 
-		# compute the Euclidean distance between the coordinates,
-		# and then convert the distance in pixels to distance in
-		# units
-		D = dist.euclidean((xA, yA), (xB, yB)) / refObj[2]
-		(mX, mY) = midpoint((xA, yA), (xB, yB))
-		cv2.putText(orig, "{:.1f}in".format(D), (int(mX), int(mY - 10)),
+			# compute the Euclidean distance between the coordinates,
+			# and then convert the distance in pixels to distance in
+			# units
+			D = dist.euclidean((xA, yA), (xB, yB)) / refObj[2]
+			(mX, mY) = midpoint((xA, yA), (xB, yB))
+			cv2.putText(orig, "{:.1f}cm".format(D), (int(mX), int(mY - 10)),
 			cv2.FONT_HERSHEY_SIMPLEX, 0.55, color, 2)
-		print(xA / refObj[2], yA / refObj[2]) # cordinates of first dot connecting the two objects
-		print(xB / refObj[2], yB / refObj[2]) # cordinates of second dot connecting the two objects
+			x = abs(xB / refObj[2] - xA / refObj[2])
+			y = abs(yB / refObj[2] - yA / refObj[2])
+			print("x distance: ", x)
+			print("y distance: ", y)
+			distance_coordincates.append((x,y))
 
-		# show the output image
-		cv2.imshow("Image", orig)
-		cv2.waitKey(0)
+
+
+			# print(xA / refObj[2], yA / refObj[2]) # cordinates of first dot connecting the two objects
+			# print(xB / refObj[2], yB / refObj[2]) # cordinates of second dot connecting the two objects
+
+			# show the output image
+			cv2.imshow("Image", orig)
+a = np.array(distance_coordincates)
+np.save("distance_coordincates",a)
+			
