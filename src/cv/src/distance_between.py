@@ -61,6 +61,7 @@ colors = ((0, 0, 255), (240, 0, 159), (0, 165, 255), (255, 255, 0),
 refObj = None
 
 distance_coordincates = []
+transform_coordinates = []
 
 # loop over the contours individually
 for c in cnts:
@@ -118,7 +119,8 @@ for c in cnts:
         # print("rotation: " + str(rotation))
         quaternion = euler_to_quaternion(0,0,rotation)
         print("rotation as quaternion: " + str(rotation))
-
+        # print("all box coords: " + str(objCoords))
+        print("centroid...? in cm: " + str(objCoords[4] / refObj[2]))
 	counter = 0
 	# loop over the original points
 	for ((xA, yA), (xB, yB), color) in zip(refCoords, objCoords, colors):
@@ -145,9 +147,7 @@ for c in cnts:
 			y = abs(yB / refObj[2] - yA / refObj[2])
 			print("x distance: ", x)
 			print("y distance: ", y)
-			distance_coordincates.append((x,y))
-
-
+			transform_coordinates.append([x, y] + quaternion)
 
 			# print(xA / refObj[2], yA / refObj[2]) # cordinates of first dot connecting the two objects
 			# print(xB / refObj[2], yB / refObj[2]) # cordinates of second dot connecting the two objects
@@ -155,6 +155,7 @@ for c in cnts:
 			# show the output image
 			cv2.imshow("Image", orig)
 			cv2.waitKey(0)
-a = np.array(distance_coordincates)
-np.save("distance_coordinates",a)
+print(transform_coordinates)
+a = np.array(transform_coordinates)
+np.save("transform_coordinates",a)
 			
