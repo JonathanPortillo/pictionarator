@@ -12,6 +12,13 @@ import argparse
 import imutils
 import cv2
 
+def euler_to_quaternion(roll, pitch, yaw):
+        qx = np.sin(roll/2) * np.cos(pitch/2) * np.cos(yaw/2) - np.cos(roll/2) * np.sin(pitch/2) * np.sin(yaw/2)
+        qy = np.cos(roll/2) * np.sin(pitch/2) * np.cos(yaw/2) + np.sin(roll/2) * np.cos(pitch/2) * np.sin(yaw/2)
+        qz = np.cos(roll/2) * np.cos(pitch/2) * np.sin(yaw/2) - np.sin(roll/2) * np.sin(pitch/2) * np.cos(yaw/2)
+        qw = np.cos(roll/2) * np.cos(pitch/2) * np.cos(yaw/2) + np.sin(roll/2) * np.sin(pitch/2) * np.sin(yaw/2)
+        return [qx, qy, qz, qw]
+
 def midpoint(ptA, ptB):
 	return ((ptA[0] + ptB[0]) * 0.5, (ptA[1] + ptB[1]) * 0.5)
 
@@ -103,6 +110,14 @@ for c in cnts:
 	refCoords = np.vstack([refObj[0], refObj[1]])
 	objCoords = np.vstack([box, (cX, cY)])
 
+        # print("coords", objCoords)
+        boxCoords = objCoords[:4]
+        point1, point2 = boxCoords[0], boxCoords[1]
+        dx, dy = point2[0] - point1[0], point2[1] - point1[1]
+        rotation = np.arctan(dy/dx)
+        # print("rotation: " + str(rotation))
+        quaternion = euler_to_quaternion(0,0,rotation)
+        print("rotation as quaternion: " + str(rotation))
 
 	counter = 0
 	# loop over the original points
@@ -139,7 +154,7 @@ for c in cnts:
 
 			# show the output image
 			cv2.imshow("Image", orig)
-			# cv2.waitKey(0)
+			cv2.waitKey(0)
 a = np.array(distance_coordincates)
 np.save("distance_coordinates",a)
 			
