@@ -139,7 +139,7 @@ for c in cnts:
 
 			# show the output image
 			cv2.imshow("Image", orig)
-			cv2.waitKey(0)
+			# cv2.waitKey(0)
 a = np.array(distance_coordincates)
 np.save("distance_coordinates",a)
 			
