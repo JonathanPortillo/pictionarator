@@ -13,3 +13,7 @@ http://wiki.ros.org/pointcloud_registration
 
 3.) This finds the transformation between two point clouds. We can use clustering to segment each object then find the transfornmation of each object:
 https://github.com/nghiaho12/rigid_transform_3D/blob/master/rigid_transform_3D.py
+
+4.) Open CV
+finds the distance between objects
+https://www.pyimagesearch.com/2016/04/04/measuring-distance-between-objects-in-an-image-with-opencv/

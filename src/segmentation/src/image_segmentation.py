@@ -5,7 +5,7 @@ Author: Grant Wang
 
 This Python file is the skeleton code for Lab 3. You are expected to fill in
 the body of the incomplete functions below to complete the lab. The 'test_..'
-functions are already defined for you for allowing you to check your
+functions are already defined for you for allowing you to check your 
 implementations.
 
 When you believe you have completed implementations of all the incompeleted
@@ -39,7 +39,7 @@ def read_image(img_name, grayscale=False):
         name of image
     grayscale : boolean
         true if image is in grayscale, false o/w
-
+    
     Returns
     -------
     ndarray
@@ -55,7 +55,7 @@ def read_image(img_name, grayscale=False):
 
 def write_image(img, img_name):
     """writes the image as a file
-
+    
     Parameters
     ----------
     img : ndarray
@@ -68,7 +68,7 @@ def write_image(img, img_name):
 
 def show_image(img_name, title='Fig', grayscale=False):
     """show the  as a matplotlib figure
-
+    
     Parameters
     ----------
     img_name : str
@@ -108,11 +108,11 @@ def threshold_segment_naive(gray_img, lower_thresh, upper_thresh):
     ndarray
         thresholded version of gray_img
     """
-    # TODO: Implement threshold segmentation by setting pixels of gray_img inside the
+    # TODO: Implement threshold segmentation by setting pixels of gray_img inside the 
     # lower_thresh and upper_thresh parameters to 0
-    # Then set any value that is outside the range to be 1
+    # Then set any value that is outside the range to be 1 
     # Hints: make a copy of gray_img so that we don't alter the original image
-    # Boolean array indexing, or masking will come in handy.
+    # Boolean array indexing, or masking will come in handy. 
     # See https://docs.scipy.org/doc/numpy-1.13.0/user/basics.indexing.html
 
     new_img = np.zeros(gray_img.shape)
@@ -122,7 +122,7 @@ def threshold_segment_naive(gray_img, lower_thresh, upper_thresh):
     upper_array =  (gray_img >= upper_thresh)
     new_img[upper_array] = 1
 
-
+    
 
     # return gray_img
     return new_img
@@ -147,9 +147,9 @@ def edge_detect_naive(gray_img):
         gray_img with edges outlined
     """
 
-    gray_s = gray_img.astype('int16') # convert to int16 for better img quality
+    gray_s = gray_img.astype('int16') # convert to int16 for better img quality 
     # blur = gray_s
-    blur = cv2.GaussianBlur(gray_s, (5, 5), 0)
+    blur = cv2.GaussianBlur(gray_s, (5, 5), 0) 
     Kx = np.array([[-1, 0, 1], [-2, 0, 2], [-1, 0, 1]])
     Ky = np.array([[-1, -2, -1], [0, 0, 0],[1, 2, 1]])
     Gx = ndimage.convolve(blur, Kx, mode='constant', cval=0.0)
@@ -157,7 +157,7 @@ def edge_detect_naive(gray_img):
     G = np.sqrt(Gx ** 2 + Gy ** 2)
     # TODO: Blur gray_s using Gaussian blurring, convole the blurred image with
     # Sobel filters, and combine to compute the intensity gradient image (image with edges highlighted)
-    # Hints: open-cv GaussianBlur will be helpful https://medium.com/analytics-vidhya/gaussian-blurring-with-python-and-opencv-ba8429eb879b
+    # Hints: open-cv GaussianBlur will be helpful https://medium.com/analytics-vidhya/gaussian-blurring-with-python-and-opencv-ba8429eb879b 
     # the scipy.ndimage.filters class (imported already) has a useful convolve function
 
     # Steps
@@ -217,7 +217,7 @@ def cluster_segment(img, n_clusters, random_state=0):
     # whose shape will be (length * width, number of channels) hint: use img_d.shape
     w, h, num_channels = img_d.shape
     img_r = img_d.reshape(-1,num_channels)
-
+    
     # fit the k-means algorithm on this reshaped array img_r using the
     # the scikit-learn k-means class and fit function
     # see https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html
@@ -239,7 +239,7 @@ def cluster_segment(img, n_clusters, random_state=0):
 def to_grayscale(rgb_img):
     return np.dot(rgb_img[... , :3] , [0.299 , 0.587, 0.114])
 
-def segment_image(img):
+def segment_image(img): 
     # ONLY USE ONE THRESHOLDING METHOD
 
     # perform thresholding segmentation

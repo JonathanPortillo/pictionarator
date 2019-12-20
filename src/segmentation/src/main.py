@@ -35,7 +35,8 @@ def get_camera_matrix(camera_info_msg):
     # TODO: Return the camera intrinsic matrix as a 3x3 numpy array
     # by retreiving information from the CameraInfo ROS message.
     # Hint: numpy.reshape may be useful here.
-    return TODO
+    K = np.array(camera_info_msg.K).reshape(3,3)
+    return K
 
 def isolate_object_of_interest(points, image, cam_matrix, trans, rot):
     segmented_image = segment_image(image)
