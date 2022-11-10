@@ -1,9 +1,4 @@
 #!/usr/bin/env python
-"""
-Path Planner Class for Lab 7
-Author: Valmik Prabhu
-"""
-
 import sys
 import rospy
 import moveit_commander
